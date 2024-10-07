@@ -1,0 +1,18 @@
+#imagen {
+    width: 800px;
+    height: 800px;
+    display: none;
+    animation-name: animacion;
+    animation-duration: 3s;
+    animation-play-state: paused;
+
+}
+
+@keyframes animacion {
+
+ 100%{
+    transform: rotate(1000deg);
+ }
+
+
+}
